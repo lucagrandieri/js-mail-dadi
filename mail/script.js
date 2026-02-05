@@ -16,7 +16,7 @@ for (let i = 0; i < allowed_mails.length; i++) {
 }
 
 // Stampo i risultati
-if (match === true) {
+if (match) {
     console.log('sei ammesso');
     
 } else {
